@@ -22,7 +22,7 @@
     background: #c2beb2;
 }
 
-.formulario_oculto{
+.formulario_oculto, .texto-oculto{
     display:none;
 }
 
@@ -36,45 +36,52 @@
 <?php get_footer();?>
 
 <script>
-    añadirListenersBotonesCambiarFormulario();
     hideButtonsOfMenu();
+    mostrarBuscoTrabajadoresForm();
     marcarActivoBoton('boton_agencia');
-    marcarActivoBoton('busco_trabajadores_boton');
 
     // Oculta los botones del menú que no son necesarios
-    function hideButtonsOfMenu()
-    {
+    function hideButtonsOfMenu(){
         let elements = document.getElementsByClassName('ocultar_pagina_colocacion');
         for(let element of elements){
             element.style.display="none"
         }
     }
 
-    // Marca como activo el botón del header de esta sección
-    function marcarActivoBoton(classeBoton){
-        let elements = document.getElementsByClassName(classeBoton);
+    // Marca  o descamarcar como activo el botón del header de esta sección
+    function marcarActivoBoton(claseBoton){
+        let elements = document.getElementsByClassName(claseBoton);
         for(let element of elements){
-           // element.style.color="white"
-            //element.style.background="#c2beb2"
             element.classList.add('boton-activo');
         }
     }
 
-    function añadirListenersBotonesCambiarFormulario()
-    {
-        let element= document.getElementById('busco_trabajadores_boton');
-        element.addEventListener("click", function(e) {
-            alert('pulsado')
-        }, false);
+    function desMarcarActivoBoton(claseBoton){
+        let elements = document.getElementsByClassName(claseBoton);
+        for(let element of elements){
+            element.classList.remove('boton-activo');
+        }
+    }
+ 
+
+    // Como son solo dos formularios, una foo para cada uno.
+    function mostrarBuscoTrabajadoresForm(){
+        document.querySelector('.formulario_busco_trabajo').classList.add('formulario_oculto')
+        document.querySelector('.formulario_busco_trabajadores').classList.remove('formulario_oculto')
+        document.querySelector('.texto_trabajo').classList.add('texto-oculto');
+        document.querySelector('.texto_trabajadores').classList.remove('texto-oculto');
+        marcarActivoBoton('busco_trabajadores_boton');
+        desMarcarActivoBoton('busco_trabajo_boton');
+    }
+    function mostrarBuscoTrabajoForm(){
+        document.querySelector('.formulario_busco_trabajadores').classList.add('formulario_oculto')
+        document.querySelector('.formulario_busco_trabajo').classList.remove('formulario_oculto')
+        document.querySelector('.texto_trabajadores').classList.add('texto-oculto');
+        document.querySelector('.texto_trabajo').classList.remove('texto-oculto');
+        marcarActivoBoton('busco_trabajo_boton');
+        desMarcarActivoBoton('busco_trabajadores_boton');
+
     }
 
-    function cambiarFormulario()
-    {
-        let elements = document.getElementsByClassName('formulario_activo');
-        for(let element of elements){
-            element.classList.remove('formulario_oculto')
-            element.classList.add('formulario_oculto')
-        }
-     //formulario_oculto
-    }
+
 </script>

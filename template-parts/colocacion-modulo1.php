@@ -28,29 +28,34 @@ Agriverdes selecciona y tiene una bolsa de trabajo de personal disponibles para 
 
 <!-- modulo formulario a la derecha -->
 <div class="row servicios1">
-            <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1">
-                <p style="margin-bottom:4em;" class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
-                     Selecciona una de las dos opciones y cumplimenta el formulario, te ayudaremos a encontrar lo que buscas:
-                </p>
+     <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+        <p style="margin-bottom:4em;" class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
+            Selecciona una de las dos opciones y cumplimenta el formulario, te ayudaremos a encontrar lo que buscas:
+        </p>
 
 
-                <div style="margin-bottom:4em;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header__trabajo__row__btn  <?php echo $link_class; ?> busco_trabajadores_boton z_index_negativo"  data-url="<?php echo $trabajadores_url; ?>" id="busco_trabajadores_boton">
+                <div onclick="mostrarBuscoTrabajadoresForm()" style="margin-bottom:4em;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header__trabajo__row__btn  <?php echo $link_class; ?> busco_trabajadores_boton z_index_negativo"  data-url="<?php echo $trabajadores_url; ?>" id="busco_trabajadores_boton">
                     <h5>Busco trabajadores</h5>
                 </div>
 
-                <div style="margin-bottom:4em;"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header__trabajo__row__btn <?php echo $link_class; ?> busco_trabajo_boton z_index_negativo" data-url="<?php echo $trabajadores_url; ?>" id="busco_trabajo_boton">
+                <div onclick="mostrarBuscoTrabajoForm()" style="margin-bottom:4em;"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header__trabajo__row__btn <?php echo $link_class; ?> busco_trabajo_boton z_index_negativo" data-url="<?php echo $trabajadores_url; ?>" id="busco_trabajo_boton">
                     <h5>Busco trabajo</h5>
                 </div>
 
-                <h1 style="margin-bottom:4em;"  class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
-                Dinos que buscas y te ofreceremos el perfil de trabajador que más se ajuste a tus necesidades.
+                <h1 style="margin-bottom:4em;"  class="aos-init aos-animate texto_trabajadores texto-oculto" data-aos="fade-up" data-aos-duration="1200">
+                     (texto boton busco trabajadores)Dinos que buscas y te ofreceremos el perfil de trabajador que más se ajuste a tus necesidades.
                 </h1>
+
+                <h1 style="margin-bottom:4em;"  class="aos-init aos-animate texto_trabajo texto-oculto" data-aos="fade-up" data-aos-duration="1200">
+                     (texto boton busco trabajo)Dinos que buscas y te ofreceremos el perfil de trabajador que más se ajuste a tus necesidades.
+                </h1>
+
 
             </div>
 
             <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-2 col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 slider trans_width">
                 <!-- FORMULARIO DE BUSCO TRABAJADORES -->
-                <div class="form sticky-element-inner formulario_busco_trabajadores formulario_activo">
+                <div class="form sticky-element-inner formulario_busco_trabajadores formulario_oculto">
                         <?php echo do_shortcode('[contact-form-7 id="104" title="Busco trabajadores (Agencia de colocación)" html_class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0"]'); ?>
                 </div>
 

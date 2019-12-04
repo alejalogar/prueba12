@@ -21,8 +21,6 @@ $trabajo_url = (is_home()) ? $base_link . '#trabajo' : '';
             <span></span>
         </div>
     </div>
-
-    
         <a href="/agencia-de-colocacion" title="Agencia de colocación Agriverdes" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 header__trabajo__row__btn hidden-xs <?php echo $link_class; ?> boton_agencia"  id="trabajadores-btn">
             <h5>AGENCIA DE COLOCACIÓN</h5>
         </a>
