@@ -11,20 +11,27 @@
  *
  * @package Agriverdes
  */
-get_header();
-
-get_template_part('template-parts/colocacion', 'modulo1');
 ?>
-	
-<?php
-get_footer();
 
-?>
+<?php get_header();?>
+
+<style>
+/** Clase para dejar los botones como en hover*/
+.boton-activo{
+    color:white;
+    background: #c2beb2;
+}
+</style>
+
+<?php get_template_part('template-parts/colocacion', 'modulo1');?>
+
+<?php get_footer();?>
 
 <script>
 
     hideButtonsOfMenu();
-    marcarActivoBotonAgencia();
+    marcarActivoBoton('boton_agencia');
+    marcarActivoBoton('busco_trabajadores_boton');
 
     // Oculta los botones del menú que no son necesarios
     function hideButtonsOfMenu()
@@ -36,11 +43,12 @@ get_footer();
     }
 
     // Marca como activo el botón del header de esta sección
-    function marcarActivoBotonAgencia(){
-        let elements = document.getElementsByClassName('boton_agencia');
+    function marcarActivoBoton(classeBoton){
+        let elements = document.getElementsByClassName(classeBoton);
         for(let element of elements){
-            element.style.color="white"
-            element.style.background="#c2beb2"
+           // element.style.color="white"
+            //element.style.background="#c2beb2"
+            element.classList.add('boton-activo');
         }
     }
 </script>

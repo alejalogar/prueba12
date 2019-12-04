@@ -34,12 +34,12 @@ Agriverdes selecciona y tiene una bolsa de trabajo de personal disponibles para 
                 </p>
 
 
-                <div style="margin-bottom:4em;"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header__trabajo__row__btn hidden-xs <?php echo $link_class; ?> boton_agencia" data-url="<?php echo $trabajadores_url; ?>" id="trabajadores-btn">
-                    <h5>AGENCIA DE COLOCACIÓN</h5>
+                <div style="margin-bottom:4em;"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header__trabajo__row__btn  <?php echo $link_class; ?> busco_trabajadores_boton" data-url="<?php echo $trabajadores_url; ?>" id="trabajadores-btn">
+                    <h5>Busco trabajadores</h5>
                 </div>
 
-                <div style="margin-bottom:4em;"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header__trabajo__row__btn hidden-xs <?php echo $link_class; ?> boton_agencia" data-url="<?php echo $trabajadores_url; ?>" id="trabajadores-btn">
-                    <h5>AGENCIA DE COLOCACIÓN</h5>
+                <div style="margin-bottom:4em;"  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 header__trabajo__row__btn <?php echo $link_class; ?> busco_trabajo_boton" data-url="<?php echo $trabajadores_url; ?>" id="trabajadores-btn">
+                    <h5>Busco trabajo</h5>
                 </div>
 
                 <h1 style="margin-bottom:4em;"  class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
