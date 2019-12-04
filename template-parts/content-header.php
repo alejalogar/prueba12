@@ -22,9 +22,9 @@ $trabajo_url = (is_home()) ? $base_link . '#trabajo' : '';
         </div>
     </div>
 
-    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 header__trabajo__row__btn hidden-xs <?php echo $link_class; ?> " data-url="<?php echo $trabajadores_url; ?>" id="trabajadores-btn">
+    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 header__trabajo__row__btn hidden-xs <?php echo $link_class; ?> boton_agencia" data-url="<?php echo $trabajadores_url; ?>" id="trabajadores-btn">
                     <!--<h5><a href="<?php // echo $base_link; ?>#trabajadores">BUSCO TRABAJADORES</a></h5>-->
-                <h5>BUSCO TRABAJADORES</h5>
+                <h5>AGENCIA DE COLOCACIÓN</h5>
                 </div>
 
     <div class="col-lg-4  col-md-3 col-sm-3 col-xs-8 trans_width header-logo-wrap">

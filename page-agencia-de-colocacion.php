@@ -22,14 +22,25 @@ get_footer();
 ?>
 
 <script>
+
     hideButtonsOfMenu();
-    
+    marcarActivoBotonAgencia();
+
     // Oculta los botones del menú que no son necesarios
     function hideButtonsOfMenu()
     {
         let elements = document.getElementsByClassName('ocultar_pagina_colocacion');
         for(let element of elements){
             element.style.display="none"
+        }
+    }
+
+    // Marca como activo el botón del header de esta sección
+    function marcarActivoBotonAgencia(){
+        let elements = document.getElementsByClassName('boton_agencia');
+        for(let element of elements){
+            element.style.color="white"
+            element.style.background="#c2beb2"
         }
     }
 </script>
