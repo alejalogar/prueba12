@@ -1,0 +1,10 @@
+.trans_width {
+  transition:width .3s;
+  transition-timing-function:cubic-bezier(0,-0.01,0,1.01);
+  -webkit-transition:width .3s;
+  -webkit-transition-timing-function:cubic-bezier(0,-0.01,0,1.01);
+}
+
+.col-lg-5.col-md-7.col-sm-6.col-xs-11.slider.trans_width {
+}
+

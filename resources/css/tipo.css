@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Begum-Regular';
+    src : url('../fonts/Begum-Regular.ttf');
+}
+
+p {
+    font-family:'Begum-Regular';
+    color:black;
+    font-size:15px;
+    line-height:1.6;
+    letter-spacing:.005em;
+    transition:font-size .3s;
+    transition-timing-function:cubic-bezier(0,-0.01,0,1.01);
+    -webkit-transition:font-size .3s;
+    -webkit-transition-timing-function:cubic-bezier(0,-0.01,0,1.01);
+}
+
+/* Apaño para el editor de WP cuando no mete etiquetas p en el content 
+
+    Debe ser exactamente el mismo código que está en p
+*/
+
+div.news__text {
+    font-family:'Begum-Regular';
+    color:black;
+    font-size:15px;
+    line-height:1.6;
+    letter-spacing:.005em;
+    transition:font-size .3s;
+    transition-timing-function:cubic-bezier(0,-0.01,0,1.01);
+    -webkit-transition:font-size .3s;
+    -webkit-transition-timing-function:cubic-bezier(0,-0.01,0,1.01);
+}
+
+
+h1 {
+    font-family:'Begum-Regular';
+    font-size:1.9em;
+    line-height:1.5;
+    text-align:center;
+}
+
+@media (min-width:767px) {
+    h1 {
+        transition:font-size .3s;
+        transition-timing-function:cubic-bezier(0,-0.01,0,1.01);
+        -webkit-transition:font-size .3s;
+        -webkit-transition-timing-function:cubic-bezier(0,-0.01,0,1.01);
+    }
+}
+
+@media (max-width:991px) {
+    h1 {
+        font-size:1.75em;
+    }
+}
+
+@media (max-width:767px) {
+    h1 {
+        font-size:1.6em;
+        text-align:center !important;
+    }
+}
+
+@media (max-width:500px) {
+    h1 {
+        font-size:1.2em;
+    }
+}
+
+h2 {
+    font-family:'Begum-Regular';
+    font-size:1.6em;
+    line-height:1.5;
+    margin-bottom:2em;
+    transition:font-size .3s;
+    transition-timing-function:cubic-bezier(0,-0.01,0,1.01);
+    -webkit-transition:font-size .3s;
+    -webkit-transition-timing-function:cubic-bezier(0,-0.01,0,1.01);
+}
+
+@media (max-width:991px) {
+    h2 {
+        font-size:1.5em;
+        line-height:1.5;
+    }
+}
+
+@media (max-width:767px) {
+    h2 {
+        font-size:1.3em;
+        line-height:1.5;
+    }
+}
+
+h5 {
+    text-transform: uppercase !important;
+    font-family:Helvetica, Arial;
+    font-size:.75em;
+    letter-spacing:.1em;
+    line-height:1.5;
+}
+
+.sangria {
+    color:black;
+    margin-left:5em;
+    position:relative;
+    margin-bottom:4em;
+}
+
+@media (max-width:500px) {
+    .sangria {
+        margin-left: 2em;
+    }
+} 
+
+.sangria p {
+    color:black;
+    margin-bottom:.5em;
+}
+
+.sangria:before {
+    content:"";
+    position:absolute;
+    background-color:#c2beb2;
+    left:-2em;
+    width:1px;
+    height:100%;
+}
+
+.mini {
+    font-family:helvetica, arial;
+    color:white;
+    font-size:.7em;
+    margin:0;
+    letter-spacing:.05em;
+}
+

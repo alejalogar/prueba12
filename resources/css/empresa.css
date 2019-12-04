@@ -1,0 +1,25 @@
+.slider {
+  padding:0;
+  margin-bottom:4em;
+}
+
+.empresa1 {
+  margin:0;
+}
+
+.empresa2 {
+  margin:10em 0 14em 0;
+}
+
+@media (max-width:991px) {
+  .empresa2 {
+    margin:2em 0 10em 0;
+  }
+}
+
+@media (max-width:767px) {
+  .empresa2 {
+    margin:2em 0 5em 0;
+  }
+}
+

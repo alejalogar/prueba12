@@ -1,0 +1,78 @@
+.header,
+.header_bg {
+	margin: 0 auto;
+	height: 5em;
+	position: fixed;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	top: 0;
+	left: 0;
+}
+
+.header {
+	z-index: 200;
+}
+
+.header_bg {
+	z-index: 40;
+	background-color: white;
+}
+
+.header__trabajo {
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	padding: 0;
+}
+
+.header__trabajo__row {
+	height: 100%;
+	margin: 0;
+}
+
+.header__trabajo__row__btn {
+	color: black;
+	cursor: pointer;
+	display: flex;
+	background: #edebe8;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.header__trabajo__row__btn:hover,
+.header__trabajo--scrolled {
+	color: white;
+	background: #c2beb2;
+}
+
+
+/*
+ * Modificaciones Brad
+ */
+
+.header__trabajo__row__btn.-active {
+	color: white;
+	background: #c2beb2;
+}
+
+.header-logo-wrap {
+	height: 38%;
+}
+
+.header-logo {
+	height: 100%;
+	display: inline-block;
+}
+
+.header-logo-image {
+	max-width: 100px !important;
+	height: 100%;
+}
+
+
+/**********************/

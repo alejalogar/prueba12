@@ -1,0 +1,35 @@
+.wwu {
+  /*background-color:red;*/
+  margin:0 auto;
+}
+
+.wwu2 {
+  margin:4em 0;
+}
+
+@media (max-width:1199px) {
+  .wwu2 {
+    margin:2em 0;
+  }
+}
+
+.wwu3 {
+  margin:20em 0 50em 0;
+}
+
+@media (max-width:767px) {
+  .wwu3 {
+    margin:2em 0;
+  }
+}
+
+.wwu__info {
+  padding:0;
+}
+
+@media (max-width:991px) {
+  .www__info__entradilla {
+    margin:0em 0 8em 0;
+  }
+}
+

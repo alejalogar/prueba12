@@ -1,0 +1,211 @@
+.form {
+	padding: 4%;
+	background-color: #c2beb2;
+}
+
+
+/*
+ * Modificaciones Brad
+ */
+
+.form-wrap {
+	padding: 0;
+}
+
+.form {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+.form .wpcf7 {
+	width: 100%;
+}
+
+.form .wpcf7 form {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+@media (max-width:767px) {
+	.form {
+		padding: 5em 0;
+	}
+	.form-wrap {
+		overflow: visible !important;
+		height: auto !important;
+		position: static !important;
+	}
+}
+
+@media (max-width:500px) {
+	.form_group.col-xs-6 {
+		width: 100%;
+	}
+}
+
+
+/**********************/
+
+.form_group {
+	margin-bottom: 2em;
+}
+
+.input,
+.input:disabled {
+	font-family: 'Begum-Regular';
+	background-color: transparent;
+	border-radius: 0;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 0;
+	font-size: 1.1em;
+	padding: 0;
+	box-shadow: none;
+	margin-top: .5em;
+	padding-bottom: .2em;
+}
+
+@media (max-width:991px) {
+	.input,
+	.input:disabled {
+		font-size: 1em;
+	}
+}
+
+.label {
+	font-family: Helvetica;
+	background-color: transparent;
+	font-size: .70em;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	padding: 0;
+	margin: 0;
+	color: white;
+	font-weight: normal;
+}
+
+.send {
+	margin-top: 1em;
+}
+
+::-webkit-input-placeholder {
+	color: rgba(40, 40, 40, .2) !important;
+}
+
+.form__btn,
+.form__btn--send {
+	cursor: pointer;
+	width: 100%;
+	text-align: center;
+	padding: 1em;
+	letter-spacing: .2em;
+	font-size: .9em;
+	line-height: 2;
+}
+
+.form__btn {
+	border: solid 1px white;
+	margin-top: 1em;
+}
+
+.form__btn:hover {
+	background-color: white;
+}
+
+.form__btn--send {
+	background: rgba(0, 0, 0, .4);
+	color: white;
+	box-shadow: none !important;
+	border: none;
+}
+
+.form__btn--send:hover {
+	background: rgba(0, 0, 0, .8);
+}
+
+*:focus {
+	box-shadow: none !important;
+	border-bottom-color: black !important;
+}
+
+textarea.form-control {
+	background-color: transparent;
+	font-family: 'Begum-Regular';
+	border: solid 1px white !important;
+	border-radius: 0;
+	font-size: 1.2em;
+	box-shadow: none;
+	margin-top: .5em;
+	padding-bottom: .2em;
+	appearance: none;
+	resize: none;
+}
+
+textarea.form-control:focus {
+	border: solid 1px white;
+}
+
+.input_none {
+	display: none !important;
+}
+
+.input_hide {
+	visibility: hidden;
+}
+
+.wpcf7-checkbox input[type="checkbox"] {
+	cursor: pointer;
+	position: relative;
+	appearance: none;
+	-webkit-appearance: none;
+	background: transparent;
+	border: 0;
+	outline: none;
+}
+
+input[type="checkbox"]:before {
+	content: "";
+	display: inline-block;
+	height: 14px;
+	width: 14px;
+	background-color: #c2beb2;
+	border: solid 1px white;
+	margin-top: -1em;
+}
+
+input[type="checkbox"]:checked:before {
+	background-color: white;
+}
+
+select {
+	/*background:red;*/
+}
+
+.wpcf7-list-item {
+	margin-right: .5em;
+}
+
+.wpcf7-list-item input {
+	margin-right: .5em;
+}
+
+
+/*
+ * Tomás
+ */
+
+span.trabajar span.wpcf7-list-item {
+	width: 50% !important;
+	margin: 0 !important;
+	vertical-align: top;
+}
+
+span.vehiculo span.wpcf7-list-item {
+	margin: 0 !important;
+}
+
+span.trabajar span.wpcf7-list-item:last-of-type {
+	padding-left: 1em !important;
+}

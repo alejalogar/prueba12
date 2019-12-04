@@ -1,0 +1,25 @@
+.aviso_cont {
+  margin:0 auto;
+  /*max-width:1150px;*/
+  margin-bottom:4em;
+}
+
+.aviso, .aviso2 {
+  margin-top:8em;
+}
+
+@media (max-width: 767px) {
+  .aviso2 {
+    margin-top:0;
+  }
+}
+
+.aviso p, .aviso2 p {
+  font-size:11px;
+  text-align:justify;
+}
+
+.aviso h2, .aviso2 h2 {
+  font-size:13px;
+}
+

@@ -1,0 +1,2 @@
+var PROGRAMMATIC_SCROLLING = false;
+var CLICKED_HREF_SCROLL = '';

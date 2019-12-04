@@ -1,0 +1,64 @@
+#documentacion {
+  padding-bottom: 4em;
+}
+
+#documentacion .doc-heading {
+  padding: 0;
+  margin-top: 19vh;
+  margin-bottom: 17vh;
+}
+
+@media (max-width:767px) {
+  #documentacion .doc-heading {
+    margin-top: 14vh;
+    margin-bottom: 17vh;
+  }
+}
+
+#documentacion .doc-context {
+  margin-bottom: 4em;
+  padding: 0;
+}
+
+#documentacion .doc-context .row {
+  margin: 0 -15px;
+}
+
+#documentacion .doc-context a {
+  color: #c2beb2;
+  text-decoration: none;
+}
+
+#documentacion .doc-context a:hover {
+  color: black;
+}
+
+#documentacion .doc-button-wrap {
+  text-align: center;
+  padding: 0;
+}
+
+#documentacion .doc-button {
+  display: inline-block;
+  padding: 0 4em;
+  background: red;
+  text-transform: uppercase;
+  color: #000;
+  background: #edebe8;
+  letter-spacing: .1em;
+  text-decoration: none;
+  font-size: .75em;
+  height: 70px;
+  line-height: 70px;
+}
+
+@media (max-width: 500px) {
+  #documentacion .doc-button {
+    display: block;
+  }
+}
+
+#documentacion .doc-button:hover {
+  color: white;
+  background: #c2beb2;
+}

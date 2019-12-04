@@ -1,0 +1,61 @@
+.window_load .holder {
+    opacity:1;
+}
+
+.block {
+    position:relative;
+}
+
+.holder {
+    height:calc(100vh - 70px);
+    position:absolute;
+    overflow-y:scroll;
+}
+
+/*
+ * Modificaciones Brad
+ */
+.holder {
+    position: absolute;
+    right: 0;
+    /*top: 0;*/
+    padding: 0;
+}
+
+/**********************
+ * DEPRECATED sticky styles
+.pos_abs_bot .holder {
+    position:absolute;
+    top:auto;
+    bottom:0;
+    left:0;
+}
+
+.pos_fixed {
+    position:fixed;
+    top:5em;
+    left:0;
+}*/
+
+
+/*
+ * CSS for sticky.js
+ * @breadadams
+ */
+.sticky-parent {
+  position: relative;
+}
+
+.sticky-element {
+  display: block;
+  height: calc(100vh - 5em);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+.sticky-element-inner {
+  min-height: 100%;
+}
+/**********************/
