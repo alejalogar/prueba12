@@ -21,16 +21,16 @@ $trabajo_url = (is_home()) ? $base_link . '#trabajo' : '';
             <span></span>
         </div>
     </div>
-        <a href="/agencia-de-colocacion" title="Agencia de colocación Agriverdes" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 header__trabajo__row__btn hidden-xs <?php echo $link_class; ?> boton_agencia"  id="trabajadores-btn">
+        <a href="/agencia-de-colocacion" title="Agencia de colocación Agriverdes" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-md-offset-1 header__trabajo__row__btn hidden-xs <?php echo $link_class; ?> boton_agencia"  id="trabajadores-btn">
             <h5>AGENCIA DE COLOCACIÓN</h5>
         </a>
     </a>
 
-    <div class="col-lg-4  col-md-3 col-sm-3 col-xs-8 trans_width header-logo-wrap">
+    <div class="col-lg-2  col-md-1 col-sm-1 col-xs-8 trans_width header-logo-wrap">
         <a href="<?php echo get_site_url(); ?>" class="header-logo"><img src="<?php echo get_template_directory_uri() . '/img/logo_bn3.svg'; ?>" class="header-logo-image"></a>
     </div>
 
-    <div class="col-lg-5 col-md-6 col-sm-6 hidden-xs header__trabajo trans_width">
+    <div class="col-lg-5 col-md-5 col-sm-6 hidden-xs header__trabajo trans_width">
         <div class="row header__trabajo__row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 header__trabajo__row__btn <?php echo $link_class; ?>  ocultar_pagina_colocacion" data-url="<?php echo $trabajadores_url; ?>" id="trabajadores-btn">
                     <!--<h5><a href="<?php // echo $base_link; ?>#trabajadores">BUSCO TRABAJADORES</a></h5>-->
