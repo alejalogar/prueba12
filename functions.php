@@ -134,7 +134,9 @@ function agriverdes_scripts()
     wp_enqueue_script('app-js', get_template_directory_uri() . '/js/agriverdes.min.js', ['jquery'], null);
     wp_enqueue_script('jquery-mousewheel', '//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js', ['jquery'], '3.1.13');
 //    wp_enqueue_script('aos', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js', ['jquery'], null);
-     wp_enqueue_script('aos', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', ['jquery'], null); 
+//  wp_enqueue_script('aos', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', ['jquery'], null); 
+     wp_enqueue_script('aos', 'https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js', ['jquery'], null); 
+
 }
 add_action('wp_enqueue_scripts', 'agriverdes_scripts');
 
