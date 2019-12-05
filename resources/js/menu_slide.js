@@ -7,19 +7,23 @@ jQuery(document).ready(function () {
 
     // Al pinchar sobre el icono del menú
     $menuToggle.on('click', function () {
+        alert();
         if (!menuChangingState) {
             menuChangingState = true;
             var opening = !$menuWrap.is(':visible'); // If opening/closing the menu
 
             // If opening, display the menu wrap
             if (opening) {
+
                 $menuWrap.css('display', 'block');
+                jQuery('.agencia-colocacion').css('opacity', 0);
             }
 
             // Give DOM some time to think...
             setTimeout(function() {
                 // Cambiamos el icono entre la "hamburguesa" y la X
                 $menuToggle.toggleClass('open');
+                
 
                 // Activamos el menu
                 $menuCol.toggleClass("menu__col--open");
@@ -39,6 +43,8 @@ jQuery(document).ready(function () {
     $menuOverlay.on('click', function () {
         // Cambiamos el icono entre la "hamburguesa" y la X
         $menuToggle.removeClass('open');
+        jQuery('.agencia-colocacion').css('opacity', 1);
+
 
         // Desactivamos el menu
         $menuCol.removeClass("menu__col--open");
