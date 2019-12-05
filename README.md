@@ -1,10 +1,17 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
 
 Existe otro repositorio que tiene el WP completo (plugins incluidos, pero no base de datos en gitlab, este es solo el theme). 
 
 Requiere
 ===
-Tener Contact Form(https://es.wordpress.org/plugins/contact-form-7/) instalado y los formularios creados para insertaros en el DOM.
+Tener Contact Form(https://es.wordpress.org/plugins/contact-form-7/) instalado y los formularios creados para insertaros en el DOM mediante shortcodes.
+
+>>   <div class="row visible-xs">
+            <div class="form">
+                <?php echo do_shortcode('[contact-form-7 id="4" title="Busco trabajadores" html_class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0"]'); ?>
+            </div>
+        </div>
+
+        
 
 Leeme
 ===
