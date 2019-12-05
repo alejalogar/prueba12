@@ -7,7 +7,6 @@ jQuery(document).ready(function () {
 
     // Al pinchar sobre el icono del menú
     $menuToggle.on('click', function () {
-        alert();
         if (!menuChangingState) {
             menuChangingState = true;
             var opening = !$menuWrap.is(':visible'); // If opening/closing the menu
@@ -16,22 +15,31 @@ jQuery(document).ready(function () {
             if (opening) {
 
                 $menuWrap.css('display', 'block');
-                jQuery('.agencia-colocacion').css('opacity', 0);
+
+                setTimeout(() => {
+                    jQuery('.agencia-colocacion').css('opacity', 0);
+
+                }, (100));
             }
 
             // Give DOM some time to think...
-            setTimeout(function() {
+            setTimeout(function () {
                 // Cambiamos el icono entre la "hamburguesa" y la X
                 $menuToggle.toggleClass('open');
-                
+
 
                 // Activamos el menu
                 $menuCol.toggleClass("menu__col--open");
+                if (!opening) {
+                    jQuery('.agencia-colocacion').css('opacity', 1);
+
+                }
                 // Activamos el background del menu
-                $menuOverlay.fadeToggle(500, function() {
+                $menuOverlay.fadeToggle(500, function () {
                     // If closing, hide the menu wrap after fade animation
                     if (!opening) {
                         $menuWrap.css('display', 'none');
+
                     }
                     menuChangingState = false;
                 });
@@ -43,13 +51,14 @@ jQuery(document).ready(function () {
     $menuOverlay.on('click', function () {
         // Cambiamos el icono entre la "hamburguesa" y la X
         $menuToggle.removeClass('open');
-        jQuery('.agencia-colocacion').css('opacity', 1);
 
 
         // Desactivamos el menu
         $menuCol.removeClass("menu__col--open");
+        jQuery('.agencia-colocacion').css('opacity', 1);
+
         // Desactivamos el background del menu
-        jQuery(this).fadeToggle(500, function() {
+        jQuery(this).fadeToggle(500, function () {
             $menuWrap.css('display', 'none')
         });
     });
