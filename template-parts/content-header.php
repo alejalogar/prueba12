@@ -31,11 +31,11 @@ $trabajo_url = (is_home()) ? $base_link . '#trabajo' : '';
             <span></span>
         </div>
     </div>
-    <a href="/agencia-de-colocacion" title="Agencia de colocación Agriverdes" class="agencia-colocacion col-sm-offset-2 col-lg-offset-3 col-lg-2 col-md-2 col-sm-2 col-xs-2 col-md-offset-3 header__trabajo__row__btn hidden-xs <?php echo $link_class; ?> boton_agencia"  id="">
+    <!--<a href="/agencia-de-colocacion" title="Agencia de colocación Agriverdes" class="agencia-colocacion col-sm-offset-2 col-lg-offset-3 col-lg-2 col-md-2 col-sm-2 col-xs-2 col-md-offset-3 header__trabajo__row__btn hidden-xs <?php echo $link_class; ?> boton_agencia"  id="">
             <h5>AGENCIA DE COLOCACIÓN</h5>
-        </a>
+        </a>-->
     <div class="col-lg-2 col-sm-offset-2 col-md-offset-3 col-lg-offset-3 col-md-1 col-sm-1 col-xs-8 trans_width header-logo-wrap">
-        <a href="<?php echo get_site_url(); ?>" class="header-logo"><img src="<?php echo get_template_directory_uri() . '/img/logo_bn3.svg'; ?>" class="header-logo-image"></a>
+        <a href="<?php echo get_site_url(); ?>" class="header-logo"><img src="<?php echo get_template_directory_uri() . '/img/2.jpg'; ?>" class="header-logo-image"></a>
     </div>
 
     <div class="col-lg-5 col-md-5 col-sm-6 hidden-xs header__trabajo trans_width">
