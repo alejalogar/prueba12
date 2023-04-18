@@ -229,9 +229,9 @@ div.wpcf7 input[type="file"]:disabled {
 #documentacion .doc-button {
   display: inline-block;
   padding: 0 4em;
-  background: red;
+  background: #d3dbbf !important;
   text-transform: uppercase;
-  color: #000;
+  color: white !important;
   background: #edebe8;
   letter-spacing: .1em;
   text-decoration: none;
@@ -546,14 +546,14 @@ div.wpcf7 input[type="file"]:disabled {
 }
 
 .form__btn--send {
-	background: rgba(0, 0, 0, .4);
+  background-color: #99a37e !important; 
 	color: white;
 	box-shadow: none !important;
 	border: none;
 }
 
 .form__btn--send:hover {
-	background: rgba(0, 0, 0, .8);
+  background-color: rgb(84,84,84) !important;
 }
 
 *:focus {
