@@ -248,7 +248,7 @@ div.wpcf7 input[type="file"]:disabled {
 
 #documentacion .doc-button:hover {
   color: white;
-  background: #c2beb2;
+  background-color: rgb(84,84,84) !important;
 }
 .slider {
   padding:0;
@@ -522,7 +522,7 @@ div.wpcf7 input[type="file"]:disabled {
 }
 
 ::-webkit-input-placeholder {
-	color: rgba(40, 40, 40, .2) !important;
+	color: rgba(0, 0, 0, 0.568) !important;
 }
 
 .form__btn,
@@ -540,12 +540,13 @@ div.wpcf7 input[type="file"]:disabled {
 	border: solid 1px white;
 	margin-top: 1em;
   background-color: #99a37e !important; 
-  color: white;
+  color: white !important;
+  
 }
 
 .form__btn:hover {
   background-color: rgb(84,84,84) !important;
-  color: white;
+  color: white !important;
 }
 
 .form__btn--send {
