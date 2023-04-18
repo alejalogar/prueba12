@@ -539,10 +539,13 @@ div.wpcf7 input[type="file"]:disabled {
 .form__btn {
 	border: solid 1px white;
 	margin-top: 1em;
+  background-color: #99a37e !important; 
+  color: white;
 }
 
 .form__btn:hover {
-	background-color: white;
+  background-color: rgb(84,84,84) !important;
+  color: white;
 }
 
 .form__btn--send {

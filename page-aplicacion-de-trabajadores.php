@@ -42,7 +42,7 @@
 
     // Oculta los botones del menú que no son necesarios
     function hideButtonsOfMenu(){
-        let elements = document.getElementsByClassName('ocultar_pagina_colocacion');
+        let elements = document.getElementsByClassName('ocultar_pagina_aplicacion');
         for(let element of elements){
             element.style.display="none"
         }
