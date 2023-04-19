@@ -18,11 +18,14 @@ get_header();
 
 
 			<h2>Política de calidad, seguridad y salud</h2>
+<p>Agriverdes del Mediterráneo, dedicada a la cesión de trabajadores agrícolas, expone en este
+documento su compromiso con la Calidad y la Mejora Continua.</p>
 <p>Todo el equipo humano que forma parte de Agriverdes del Mediterráneo es consciente y está
 comprometido en la correcta realización del trabajo de manera que se priorizará siempre la
 minimización de los riesgos. </p>
 <p>Con esta política se impulsa una cultura de calidad, seguridad y salud, así como su gestión
-integrada desde la dirección, promoviendo la adecuada percepción del riesgo, la transparencia,confianza y el aprendizaje continuo. </p>
+integrada desde la dirección, promoviendo la adecuada percepción del riesgo, la transparencia,
+confianza y el aprendizaje continuo.</p>
 <p>La dirección lidera los programas de calidad, seguridad y salud considerándolos como
 prioritarios en la toma de decisiones y proporciona los recursos necesarios, asegurándose de
 que todo el personal tiene las habilidades necesarias y trabaja de acuerdo con los principios
@@ -56,10 +59,10 @@ seguridad, apoyando la dirección siempre esta elección.
 Agriverdes del Mediterráneo considera que cumplir con esta política es responsabilidad de
 todos sus empleados. </p>
 
-<h2>DIRECCIÓN
-En Torre Pacheco, a 26 de marzo de 2018 </h2>
+<h2>DIRECCIÓN</h2>
+<h2>En Torre Pacheco, a 06 de junio de 2022 </h2>
 
-<a href="wp-content/uploads/2018/06/POLITICA_DE_CALIDAD1.pdf" rel='nofollow' title='Descargar Política de Calidad de Agriverdes'>
+<a href="/wp-content/uploads/2022/06/POLITICA_DE_CALIDAD-2022.pdf" rel='nofollow' title='Descargar Política de Calidad de Agriverdes'>
 	<p>
 		Descargar versión en PDF
 	</p>

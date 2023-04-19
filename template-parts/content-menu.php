@@ -25,10 +25,11 @@ $link_class = (is_page($page_inicio_id)) ? ' menu-item-anchor' : '';
 
             <div class="col-lg-12 col-lg-offset-0 col-md-12 col-sm-12 col-xs-12 menu__col__row__enlaces">
                 <h1><a class="menu-item<?php echo $link_class; ?>" href="<?php echo $base_link; ?>#empresa">Empresa</a></h1>
-                <h1><a class="menu-item" href="<?php echo $base_link; ?>agencia-de-colocacion/">Agencia de colocación</a></h1>
+                <!-- <h1><a class="menu-item" href="<?php //echo $base_link; ?>agencia-de-colocacion/">Agencia de colocación</a></h1> -->
 
                 <h1><a class="menu-item<?php echo $link_class; ?>" href="<?php echo $base_link; ?>#servicios">Servicios</a></h1>
                 <h1><a class="menu-item<?php echo $link_class; ?>" href="<?php echo $base_link; ?>#documentacion">Documentación Online</a></h1>
+                <h1><a class="menu-item<?php echo (is_home()) ? ' menu-item-anchor' : ''; ?>" href="<?php echo $base_link; ?>aplicacion-trabajadores">Aplicación trabajadores</a></h1>
                 <h1 class="hidden-sm hidden-md hidden-lg"><a class="menu-item<?php echo $link_class; ?>" href="<?php echo $base_link; ?>#trabajo">Busco Trabajo</a></h1>
                 <h1 class="hidden-sm hidden-md hidden-lg"><a class="menu-item<?php echo $link_class; ?>" href="<?php echo $base_link; ?>#trabajadores">Busco Trabajadores</a></h1>
                 <h1><a class="menu-item<?php echo (is_home()) ? ' menu-item-anchor' : ''; ?>" href="<?php echo get_post_page_permalink(); ?>">Noticias</a></h1>
