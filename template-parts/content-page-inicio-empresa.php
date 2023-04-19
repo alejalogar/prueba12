@@ -18,9 +18,9 @@
 
 <div class="row entradilla2">
     <div class="col-lg-6 col-md-6 col-sm-10 col-xs-10">
-        <h1 style="padding:0;" class="aos-init aos-animate"
-data-aos="fade-up"
-data-aos-duration="1200">Seleccionamos y colocamos personal a nivel nacional en distintas actividades dentro del sector hortofrutícola.</h1>
+        <h1 style="padding:0;" class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
+			Seleccionamos y colocamos personal a nivel nacional en distintas actividades dentro del sector hortofrutícola.
+		</h1>
     </div>
 </div>
 
