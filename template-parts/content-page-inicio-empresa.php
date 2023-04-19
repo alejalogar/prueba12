@@ -18,9 +18,9 @@
 
 <div class="row entradilla2">
     <div class="col-lg-6 col-md-6 col-sm-10 col-xs-10">
-        <h1 style="padding:0;" class="aos-init aos-animate"
-data-aos="fade-up"
-data-aos-duration="1200">Seleccionamos y colocamos personal a nivel nacional en distintas actividades dentro del sector hortofrutícola. </h1>
+        <h1 style="padding:0;" class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="1200">
+			Seleccionamos y colocamos personal a nivel nacional en distintas actividades dentro del sector hortofrutícola.
+		</h1>
     </div>
 </div>
 
@@ -31,7 +31,7 @@ data-aos-duration="1200">Seleccionamos y colocamos personal a nivel nacional en 
     <div class="col-lg-3 col-lg-offset-2 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1">
         <p class="aos-init aos-animate"
         data-aos="fade-up"
-        data-aos-duration="1200">Contamos con cuadrillas de trabajadores cualificados y experimentados, lo que nos permite una amplia gama de ofertas de trabajo. </p>
+        data-aos-duration="1200">Contamos con cuadrillas de trabajadores cualificados y experimentados, lo que nos permite una amplia gama de ofertas de trabajo.</p>
     </div>
 </div>
 
@@ -53,6 +53,6 @@ data-aos-duration="1200">Seleccionamos y colocamos personal a nivel nacional en 
         <p class="sangria aos-init aos-animate"
         data-aos="fade-up"
         data-aos-duration="1200"
-        data-aos-delay="500">Gracias al esfuerzo y la constancia de todos los que formamos Agriverdes, junto con nuestros clientes y proveedores, nos hemos posicionado como una de las empresas de recursos humanos más importantes de sector agrario. </p>
+        data-aos-delay="500">Gracias al esfuerzo y la constancia de todos los que formamos Agriverdes, junto con nuestros clientes y proveedores, nos hemos posicionado como una de las empresas de recursos humanos más importantes de sector agrario.</p>
     </div>
 </div>
