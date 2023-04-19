@@ -36,52 +36,10 @@
 <?php get_footer();?>
 
 <script>
-    hideButtonsOfMenu();
-    mostrarBuscoTrabajadoresForm();
-    marcarActivoBoton('boton_agencia');
-
-    // Oculta los botones del menú que no son necesarios
-    function hideButtonsOfMenu(){
-        let elements = document.getElementsByClassName('ocultar_pagina_aplicacion');
-        for(let element of elements){
-            element.style.display="none"
-        }
-    }
-
-    // Marca  o descamarcar como activo el botón del header de esta sección
-    function marcarActivoBoton(claseBoton){
-        let elements = document.getElementsByClassName(claseBoton);
-        for(let element of elements){
-            element.classList.add('boton-activo');
-        }
-    }
-
-    function desMarcarActivoBoton(claseBoton){
-        let elements = document.getElementsByClassName(claseBoton);
-        for(let element of elements){
-            element.classList.remove('boton-activo');
-        }
-    }
- 
-
-    // Como son solo dos formularios, una foo para cada uno.
-    function mostrarBuscoTrabajadoresForm(){
-        document.querySelector('.formulario_busco_trabajo').classList.add('formulario_oculto')
-        document.querySelector('.formulario_busco_trabajadores').classList.remove('formulario_oculto')
-        document.querySelector('.texto_trabajo').classList.add('texto-oculto');
-        document.querySelector('.texto_trabajadores').classList.remove('texto-oculto');
-        marcarActivoBoton('busco_trabajadores_boton');
-        desMarcarActivoBoton('busco_trabajo_boton');
-    }
-    function mostrarBuscoTrabajoForm(){
-        document.querySelector('.formulario_busco_trabajadores').classList.add('formulario_oculto')
-        document.querySelector('.formulario_busco_trabajo').classList.remove('formulario_oculto')
-        document.querySelector('.texto_trabajadores').classList.add('texto-oculto');
-        document.querySelector('.texto_trabajo').classList.remove('texto-oculto');
-        marcarActivoBoton('busco_trabajo_boton');
-        desMarcarActivoBoton('busco_trabajadores_boton');
-
-    }
-
-
+    var aplicacionTrabajadores = document.querySelector('.aplicacion-de-trabajadores');
+    var buscoTrabajadores = document.querySelector('#trabajadores-btn');
+    var buscoTrabajo = document.querySelector('#trabajo-btn');
+    aplicacionTrabajadores.style.display = "none";
+    buscoTrabajadores.style.display = "none";
+    buscoTrabajo.style.display = "none";
 </script>
