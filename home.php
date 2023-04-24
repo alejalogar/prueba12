@@ -46,6 +46,9 @@ get_header();
 							<div class="col-lg-12 col-md-12 <?php echo $share_col_classes;?>">
 								<a target="_blank" href="<?php echo getTwitterShareUrl($permalink, $title); ?>"><img src="<?php echo get_template_directory_uri() . '/img/twitter.svg'; ?>" width="14px" class="news__redes__icon"></a>
 							</div>
+                            <div class="col-lg-12 col-md-12 <?php echo $share_col_classes;?>">
+								<a target="_blank" href="<?php echo getLinkedinShareUrl(); ?>"><img src="<?php echo get_template_directory_uri() . '/img/linkedin.svg'; ?>" width="14px" class="news__redes__icon"></a>
+							</div>
 						</div>
 					</div>
                 </div>

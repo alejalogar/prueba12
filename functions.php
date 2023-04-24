@@ -182,6 +182,14 @@ function getTwitterShareUrl($url, $title, $via = null, $hastags = null)
     return $shareUrl . $via . $hastags;
 }
 
+
+function getLinkedinShareUrl()
+{
+    return 'https://www.linkedin.com/sharing/share-offsite/?url=https://agriverdes.com';
+
+    
+}
+
 function get_post_page_permalink()
 {
     // Si se ha establecido una página como blog

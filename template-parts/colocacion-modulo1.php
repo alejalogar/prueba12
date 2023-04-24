@@ -47,7 +47,7 @@ Agriverdes selecciona y tiene una bolsa de trabajo de personal disponibles para 
             </div>
             <div class="row">
                 <h1 style="text-align:left; margin-bottom:4em;"  class="col-12 aos-init aos-animate texto_trabajadores texto-oculto" data-aos="fade-up" data-aos-duration="1200">
-                     Dinos que buscas y te ofreceremos el perfil de trabajador que más se ajuste a tus necesidades.
+                     Dinos qué buscas y te ofreceremos el perfil de trabajador que más se ajuste a tus necesidades.
                 </h1>
 
                 <h1 style="text-align:left; margin-bottom:4em;"  class="col-12 aos-init aos-animate texto_trabajo texto-oculto" data-aos="fade-up" data-aos-duration="1200">

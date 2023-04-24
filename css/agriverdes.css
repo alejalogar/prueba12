@@ -229,9 +229,9 @@ div.wpcf7 input[type="file"]:disabled {
 #documentacion .doc-button {
   display: inline-block;
   padding: 0 4em;
-  background: red;
+  background: #d3dbbf !important;
   text-transform: uppercase;
-  color: #000;
+  color: white !important;
   background: #edebe8;
   letter-spacing: .1em;
   text-decoration: none;
@@ -248,7 +248,7 @@ div.wpcf7 input[type="file"]:disabled {
 
 #documentacion .doc-button:hover {
   color: white;
-  background: #c2beb2;
+  background-color: rgb(84,84,84) !important;
 }
 .slider {
   padding:0;
@@ -335,7 +335,7 @@ div.wpcf7 input[type="file"]:disabled {
 
 @media (max-width:991px) {
   .entradilla h1, .entradilla2 h1, .entradilla3 h1 {
-    padding:5em;
+    padding:2em;
   }
 }
 
@@ -348,7 +348,7 @@ div.wpcf7 input[type="file"]:disabled {
 
 @media (max-width:500px) {
   .entradilla h1, .entradilla2 h1, .entradilla3 h1 {
-    padding:2em;
+    padding:1em;
   }
 }
 
@@ -522,7 +522,7 @@ div.wpcf7 input[type="file"]:disabled {
 }
 
 ::-webkit-input-placeholder {
-	color: rgba(40, 40, 40, .2) !important;
+	color: rgba(0, 0, 0, 0.568) !important;
 }
 
 .form__btn,
@@ -539,21 +539,24 @@ div.wpcf7 input[type="file"]:disabled {
 .form__btn {
 	border: solid 1px white;
 	margin-top: 1em;
+  	background-color: #99a37e !important;
+  	color: white !important;
 }
 
 .form__btn:hover {
-	background-color: white;
+  background-color: rgb(84,84,84) !important;
+  color: white !important;
 }
 
 .form__btn--send {
-	background: rgba(0, 0, 0, .4);
+  background-color: #99a37e !important;
 	color: white;
 	box-shadow: none !important;
 	border: none;
 }
 
 .form__btn--send:hover {
-	background: rgba(0, 0, 0, .8);
+  background-color: rgb(84,84,84) !important;
 }
 
 *:focus {
@@ -1187,7 +1190,7 @@ p {
     -webkit-transition-timing-function:cubic-bezier(0,-0.01,0,1.01);
 }
 
-/* Apaño para el editor de WP cuando no mete etiquetas p en el content 
+/* Apaño para el editor de WP cuando no mete etiquetas p en el content
 
     Debe ser exactamente el mismo código que está en p
 */
@@ -1284,7 +1287,7 @@ h5 {
     .sangria {
         margin-left: 2em;
     }
-} 
+}
 
 .sangria p {
     color:black;
