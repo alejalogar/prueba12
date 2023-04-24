@@ -32,7 +32,6 @@ $link_class = (is_page($page_inicio_id)) ? ' menu-item-anchor' : '';
                 <h1><a class="menu-item<?php echo (is_home()) ? ' menu-item-anchor' : ''; ?>" href="<?php echo $base_link; ?>aplicacion-trabajadores">Aplicación trabajadores</a></h1>
                 <h1 class="hidden-sm hidden-md hidden-lg"><a class="menu-item<?php echo $link_class; ?>" href="<?php echo $base_link; ?>#trabajo">Busco Trabajo</a></h1>
                 <h1 class="hidden-sm hidden-md hidden-lg"><a class="menu-item<?php echo $link_class; ?>" href="<?php echo $base_link; ?>#trabajadores">Busco Trabajadores</a></h1>
-                <h1><a class="menu-item<?php echo (is_home()) ? ' menu-item-anchor' : ''; ?>" href="<?php echo $base_link; ?>aplicacion-de-trabajadores">Aplicación de trabajadores</a></h1>
                 <h1><a class="menu-item<?php echo (is_home()) ? ' menu-item-anchor' : ''; ?>" href="<?php echo get_post_page_permalink(); ?>">Noticias</a></h1>
                 <h1><a class="menu-item menu-item-anchor" href="#contacto">Contacto</a></h1>
             </div>
